@@ -11,12 +11,14 @@ Agent Development Kit (ADK) is a flexible and modular framework for **developing
 1. ```pip install google-adk```  
 2. Follow [ADK Quickstart](https://google.github.io/adk-docs/get-started/quickstart/)  
 
-- **[What is an Agent?](https://google.github.io/adk-docs/agents/)**
+- **What is an Agent?**  
 **Agent** is a self-contained execution unit designed to act autonomously to achieve specific goals. Agents can perform tasks, interact with users, utilize external tools, and coordinate with other agents.  
-![Primary Agent Types](images/adk-primary-agent-types.png)
+Reference: https://google.github.io/adk-docs/agents/  
+![Primary Agent Types](images/adk-primary-agent-types.png)  
 
-- **[What is a Tool?](https://google.github.io/adk-docs/tools/#what-is-a-tool)**
-In the context of ADK, a Tool represents a specific capability provided to an AI agent, enabling it to perform actions and interact with the world beyond its core text generation and reasoning abilities. __What distinguishes capable agents from basic language models is often their effective use of tools.__
+- **What is a Tool?**  
+In the context of ADK, a Tool represents a specific capability provided to an AI agent, enabling it to perform actions and interact with the world beyond its core text generation and reasoning abilities. _What distinguishes capable agents from basic language models is often their effective use of tools._
+Reference: https://google.github.io/adk-docs/tools/#what-is-a-tool  
 Key Characterstics:
 - Querying databases
 - Making API requests (e.g., fetching weather data, booking systems)
@@ -26,11 +28,13 @@ Key Characterstics:
 - Interacting with other software or services
 ![Tool](images/adk-tool.png)
 
-- **What is [MCP](https://www.anthropic.com/news/model-context-protocol)?**
+- **What is MCP?**  
 The Model Context Protocol (MCP) is a standardized, open protocol developed by Anthropic that enables AI models to seamlessly interact with external data sources and tools, acting as a universal connector for AI integrations.
+Reference: https://www.anthropic.com/news/model-context-protocol  
 
-- **What is A2A**
+- **What is A2A**  
 An open protocol enabling communication and interoperability between opaque agentic applications. **Google** is driving this open protocol initiative for the industry; this protocol helps support multi-agent communication by giving your agents a common language – irrespective of the framework or vendor they are built on. With A2A, agents can show each other their capabilities and negotiate how they will interact with users (via text, forms, or bidirectional audio/video) – all while working securely together.
+Reference: https://github.com/google/A2A?tab=readme-ov-file#agent2agent-protocol-a2a 
 
 
 
