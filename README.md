@@ -1,7 +1,5 @@
-# Everything AI
-
-## Agentic AI
-Welcome, developers and AI enthusiasts! If you followed Google Next like I did, the word "AGENT" must be on top of your mind. There's a lot of buzz around Agentic AI, ADK, MCP Protocol, A2A Protocol etc. 
+# Agentic AI
+Welcome, developers and AI enthusiasts! If you followed Google Next like I did, the word "**AGENT**" must be on top of your mind. There's a lot of buzz around Agentic AI, ADK, MCP Protocol, A2A Protocol etc. 
 
 ## ADK
 Reference: https://google.github.io/adk-docs/  
