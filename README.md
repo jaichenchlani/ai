@@ -64,11 +64,12 @@ Reference: https://github.com/google/A2A?tab=readme-ov-file#agent2agent-protocol
 ## Multi-Agent Architecture
 
 ### Agent Blueprint
-A complete agent is depicted in the picture below.
+A complete agent is depicted in the picture below.  
 <img src="images/agent-blueprint.png" width="300"/>
 
 ### Conceptual Architecture
-![Conceptual Architecture](images/multi-agent-architecture.png)
+Here's a concepual architecture of multi-agent app:  
+<img src="images/multi-agent-architecture.png" width="700"/>
 
 
 
