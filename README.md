@@ -65,8 +65,7 @@ Reference: https://github.com/google/A2A?tab=readme-ov-file#agent2agent-protocol
 
 ### Agent Blueprint
 A complete agent is depicted in the picture below.
-![Agent Blueprint](images/agent-blueprint.png)
-<img src="images/agent-blueprint.png" alt="My Awesome Diagram" width="500"/>
+<img src="images/agent-blueprint.png" width="300"/>
 
 ### Conceptual Architecture
 ![Conceptual Architecture](images/multi-agent-architecture.png)
