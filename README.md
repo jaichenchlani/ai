@@ -72,22 +72,6 @@ A complete agent is depicted in the picture below.
 3. Uses A2A Protocol to talk to other Agents.
 
 ### Conceptual Architecture
-Here's a concepual architecture of multi-agent app:  
+Here's the concepual architecture of multi-agent app. This architecture depicts use of all options - Gemini and OpenAI models, both ADK and LangChain frameworks. In reality, all the agents in your ecosystem, could just be using say, Gemini as the LLM and ADK as the MCP client.
+
 <img src="images/multi-agent-architecture.png" width="700"/>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
