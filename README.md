@@ -66,6 +66,10 @@ Reference: https://github.com/google/A2A?tab=readme-ov-file#agent2agent-protocol
 ### Agent Blueprint
 A complete agent is depicted in the picture below.  
 <img src="images/agent-blueprint.png" width="200"/>
+### Key Characterstics:
+1. Uses an underlying LLM
+2. Uses MCP to talk to MCP Servers
+3. Uses A2A Protocol to talk to other Agents.
 
 ### Conceptual Architecture
 Here's a concepual architecture of multi-agent app:  
