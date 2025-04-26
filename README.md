@@ -5,10 +5,6 @@ Welcome, developers and AI enthusiasts! If you followed Google Next like I did, 
 Reference: https://google.github.io/adk-docs/  
 Agent Development Kit (ADK) is a flexible and modular framework for **developing and deploying AI agents**. While optimized for Gemini and the Google ecosystem, ADK is **model-agnostic, deployment-agnostic**, and is built for **compatibility with other frameworks**. ADK was designed to make agent development feel more like software development, to make it easier for developers to create, deploy, and orchestrate agentic architectures that range from simple tasks to complex workflows.
 
-### How do I get started?
-1. ```pip install google-adk```  
-2. Follow [ADK Quickstart](https://google.github.io/adk-docs/get-started/quickstart/)  
-
 ### What is an Agent?
 **Agent** is a self-contained execution unit designed to act autonomously to achieve specific goals. Agents can perform tasks, interact with users, utilize external tools, and coordinate with other agents.  
 Reference: https://google.github.io/adk-docs/agents/  
@@ -17,7 +13,7 @@ Reference: https://google.github.io/adk-docs/agents/
 ### What is a Tool?
 In the context of ADK, a Tool represents a specific capability provided to an AI agent, enabling it to perform actions and interact with the world beyond its core text generation and reasoning abilities. _What distinguishes capable agents from basic language models is often their effective use of tools._
 Reference: https://google.github.io/adk-docs/tools/#what-is-a-tool  
-Key Characterstics:
+#### Key Characterstics:
 - Querying databases
 - Making API requests (e.g., fetching weather data, booking systems)
 - Searching the web
@@ -25,6 +21,10 @@ Key Characterstics:
 - Retrieving information from documents (RAG)
 - Interacting with other software or services
 ![Tool](images/adk-tool.png)
+
+### How do I get started?
+1. ```pip install google-adk```  
+2. Follow [ADK Quickstart](https://google.github.io/adk-docs/get-started/quickstart/)  
 
 ## MCP
 The Model Context Protocol (MCP) is a standardized, open protocol developed by Anthropic that enables AI models to seamlessly interact with external data sources and tools, acting as a universal connector for AI integrations.  
