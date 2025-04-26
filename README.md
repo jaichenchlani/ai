@@ -5,16 +5,16 @@ Welcome, developers and AI enthusiasts! If you followed Google Next like I did, 
 Reference: https://google.github.io/adk-docs/  
 Agent Development Kit (ADK) is a flexible and modular framework for **developing and deploying AI agents**. While optimized for Gemini and the Google ecosystem, ADK is **model-agnostic, deployment-agnostic**, and is built for **compatibility with other frameworks**. ADK was designed to make agent development feel more like software development, to make it easier for developers to create, deploy, and orchestrate agentic architectures that range from simple tasks to complex workflows.
 
-- **How do I get started?**
+### How do I get started?
 1. ```pip install google-adk```  
 2. Follow [ADK Quickstart](https://google.github.io/adk-docs/get-started/quickstart/)  
 
-- **What is an Agent?**  
+### What is an Agent?
 **Agent** is a self-contained execution unit designed to act autonomously to achieve specific goals. Agents can perform tasks, interact with users, utilize external tools, and coordinate with other agents.  
 Reference: https://google.github.io/adk-docs/agents/  
 ![Primary Agent Types](images/adk-primary-agent-types.png)  
 
-- **What is a Tool?**  
+### What is a Tool?
 In the context of ADK, a Tool represents a specific capability provided to an AI agent, enabling it to perform actions and interact with the world beyond its core text generation and reasoning abilities. _What distinguishes capable agents from basic language models is often their effective use of tools._
 Reference: https://google.github.io/adk-docs/tools/#what-is-a-tool  
 Key Characterstics:
