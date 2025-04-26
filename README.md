@@ -1,5 +1,20 @@
 # Agentic AI
-Welcome, developers and AI enthusiasts! If you followed Google Next like I did, the word "**AGENT**" must be on top of your mind. There's a lot of buzz around Agentic AI, ADK, MCP Protocol, A2A Protocol etc. 
+Welcome, developers and AI enthusiasts! If you followed Google Next like I did, the word "**AGENT**" must be on top of your mind. 
+
+**Agentic AI** refers to autonomous AI systems that operate proactively, make independent decisions, and execute complex tasks without continuous human intervention.
+
+## Key characteristics:
+1. **Autonomous Decision Making** — Reduces human effort by allowing AI to think, reason, and take actions automatically.
+2. **Multi-Agent Collaboration** — Allows different AI agents to specialize in tasks, improving accuracy and efficiency.
+3. **Scalability & Efficiency** — AI agents execute parallel tasks, reducing processing time compared to traditional workflows.
+4. **Enhanced User Experience** — Delivers faster, smarter, and more personalized solutions for complex tasks.
+
+## So, what changes?
+There seems to be a significant shift in AI architecture with the announcement of Agent-to-Agent protocols (A2A) by Google, alongside the Model Context Protocol (MCP). The core idea is a move away from explicit programming, which has been the standard for about half a century now.
+
+Explicit programming involves defining every instruction, connection, data flow, and decision point. This leads to deterministic software that can only do exactly what it has been told, limiting its capabilities.
+
+Unlike traditional AI models that require step-by-step commands, Agentic AI works dynamically, making real-time decisions, collaborating with other agents, and optimizing workflows based on contextual data.
 
 ## ADK
 Reference: https://google.github.io/adk-docs/  
@@ -51,6 +66,7 @@ Reference: https://github.com/google/A2A?tab=readme-ov-file#agent2agent-protocol
 ### Agent Blueprint
 A complete agent is depicted in the picture below.
 ![Agent Blueprint](images/agent-blueprint.png)
+<img src="images/agent-blueprint.png" alt="My Awesome Diagram" width="500"/>
 
 ### Conceptual Architecture
 ![Conceptual Architecture](images/multi-agent-architecture.png)
