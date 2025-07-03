@@ -45,6 +45,15 @@ Reference: https://google.github.io/adk-docs/tools/#what-is-a-tool
 The Model Context Protocol (MCP) is a standardized, open protocol developed by Anthropic that enables AI models to seamlessly interact with external data sources and tools, acting as a universal connector for AI integrations.  
 Reference: https://www.anthropic.com/news/model-context-protocol  
 
+## ADK as MCP Client
+```
+from google.adk.agents.llm_agent import LlmAgent
+from google.adk.runners import Runner
+from google.adk.sessions import InMemorySessionService
+from google.adk.tools.mcp_tool.mcp_toolset import MCPToolset, StdioServerParameters
+```
+
+
 ## A2A
 An open protocol enabling communication and interoperability between opaque agentic applications. **Google** is driving this open protocol initiative for the industry; this protocol helps support multi-agent communication by giving your agents a common language – irrespective of the framework or vendor they are built on. With A2A, agents can show each other their capabilities and negotiate how they will interact with users (via text, forms, or bidirectional audio/video) – all while working securely together.  
 Reference: https://github.com/google/A2A?tab=readme-ov-file#agent2agent-protocol-a2a   
