@@ -86,7 +86,17 @@ python -m app
 
 The agent will start on `http://localhost:8003` by default.
 
+### Testing the Agent
+
+```bash
+cd mathAgent
+uv run python3 app/test_client.py
+uv run python3 app/test_client2.py
+```
+I included version2 of the test_client. Use this for testing.
+
 ### Example Queries
+All the queries below are configured in constants and test_client2.py runs the model for each one of them.
 
 #### Arithmetic Calculations
 ```
